@@ -5,6 +5,7 @@ import pickle
 from torch.utils.data import Dataset
 
 from pyhealth.datasets.utils import list_nested_levels, flatten_list
+from .sample_dataset_v2 import SampleDataset
 
 
 class SampleBaseDataset(Dataset):
